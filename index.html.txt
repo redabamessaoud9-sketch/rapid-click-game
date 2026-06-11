@@ -1,0 +1,15 @@
+<div class="top-buttons">
+    <button id="themeBtn">🌙 Mode sombre</button>
+    <button id="musicBtn">🎵 Musique : ON</button>
+</div>
+
+<h2>🏆 Meilleur score : <span id="bestScore">0</span></h2>
+
+<canvas id="confetti"></canvas>
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Confetti -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>

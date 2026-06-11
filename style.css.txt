@@ -1,0 +1,36 @@
+body{
+    transition:0.4s;
+}
+
+.dark{
+    background:#111;
+    color:white;
+}
+
+.dark .container{
+    background:#222;
+    color:white;
+}
+
+.top-buttons{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.top-buttons button{
+    padding:10px 20px;
+    cursor:pointer;
+    border:none;
+    border-radius:10px;
+}
+
+canvas{
+    position:fixed;
+    pointer-events:none;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
